@@ -1,10 +1,12 @@
  import './App.css';
+ import home from './pages/home/home';
 
  function App() {
      return ( <
          div className = "App" >
          <
-         h1 > Hello < /h1> <
+         home / >
+         <
          /div>
      );
  }
